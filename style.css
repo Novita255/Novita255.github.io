@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+body {
+  background-color: #111111;
+  color: white;
+  font-family: "Inter", "Crimson Text", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* section 1*/
+nav {
+  background-image: url("assets/jennie.webp");
+  background-size: cover;
+  background-position: center;
+  margin: 60px 20px 0 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 50px 20px;
+}
+
+.hero-text {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 50px;
+}
+
+.hero-text .intro {
+  color: #8e282a;
+  font-size: 2rem;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.hero-text .description {
+  margin-bottom: 30px;
+  line-height: 1.15;
+  color: #ccc;
+  font-size: 1.9rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-buttons a.btn img.icon {
+  height: 2em;
+  width: auto;
+}
+
+.hero-buttons .btn-email img.icon {
+  margin-right: 8px;
+}
+
+.hero-buttons a.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-buttons a.btn span {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.hero-buttons .btn-email {
+  background-color: #8e282a;
+  color: white;
+  font-family: "Crimson Text", serif;
+}
+
+.hero-buttons .btn-instagram,
+.hero-buttons .btn-whatsapp {
+  background-color: white;
+}
+
+/* section 2*/
+.section-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-heading {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+.samples-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sample-item {
+  box-sizing: border-box;
+}
+
+.samples-gallery > .sample-item:nth-child(1) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 28%;
+}
+
+.samples-gallery > .sample-item:nth-child(2) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 39.5%;
+}
+
+.samples-gallery > .sample-item:nth-child(3) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 28.5%;
+}
+
+.sample-item img.sample-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* section 3*/
+#section3 {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 80px;
+}
+
+/* Kotak Call to Action */
+.cta-box {
+  padding: 45px 35px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1818;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.cta-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.cta-buttons .btn {
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-buttons .btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.cta-buttons .btn-email {
+  background-color: #8e282a;
+  color: white;
+}
+
+.cta-buttons .btn-email img.icon {
+  height: 1.2em;
+  width: auto;
+  margin-right: 8px;
+}
+.how-i-work-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.how-i-work-image {
+  flex-basis: 40%;
+}
+
+.how-i-work-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.how-i-work-text {
+  flex-basis: 60%;
+}
+
+.how-i-work-text h4 {
+  font-family: "Crimson Text", serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.how-i-work-text p {
+  font-family: "Crimson Text", serif;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+
+/* section 4*/
+#section4 {
+  padding: 80px 10px;
+}
+
+.why-hire-me-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 100px;
+}
+
+.why-hire-me-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  text-align: center;
+}
+
+.reason-item {
+  flex-basis: 30%;
+}
+
+.reason-profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.reason-title {
+  font-family: "Crimson Text", serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.reason-description {
+  font-family: "Crimson Text", serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+/* section 5*/
+#section5 {
+  padding: 100px 20px;
+  margin-top: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1c1818;
+  position: relative;
+}
+
+/* Tombol navigasi slider testimoni */
+.testimonial-nav {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 10;
+}
+
+.testimonial-nav img {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
+.testimonial-nav.prev {
+  margin-right: 50px;
+}
+
+.testimonial-nav.next {
+  margin-left: 50px;
+}
+
+/* Konten testimoni */
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-grow: 1;
+  position: relative;
+  margin-left: 100px;
+}
+
+.testimonial-image-container {
+  flex-shrink: 0;
+  margin-top: -390px; /* Posisi foto testimoni berada di luar card */
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 5;
+}
+
+.testimonial-pic {
+  width: 390px;
+  height: auto;
+  display: block;
+}
+
+.testimonial-quote-container {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.testimonial-quote {
+  font-family: "Crimson Text", serif;
+  font-size: 2.2rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-top: 0;
+  margin-bottom: -25px;
+  font-style: italic;
+}
+
+.testimonial-author {
+  font-family: "Crimson Text", serif;
+  font-size: 2.1rem;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+.placeholder-text {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+/*footer*/
+.site-footer {
+  background-color: #1c1818;
+  padding: 80px 40px;
+  text-align: center;
+  margin: 80px 20px 30px 20px;
+}
+
+.footer-heading {
+  font-family: "Crimson Text", serif;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-subheading {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-email {
+  font-family: "Crimson Text", serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.footer-email:hover {
+  color: #ccc;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-social-icons .social-icon img {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  padding: 5px;
+  display: block;
+}
